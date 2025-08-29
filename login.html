@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <h1>Sistema de vendas</h1>
+    <br><br>
+
+    <!--Form está com açõa de direcionar para página do pagina com método GET-->  
+
+    <form action="menu.html" method="get">
+
+    <!--Cria a tabela e define a borda-->     
+        <table border="1">
+
+             <!--TR são linhas da tabela e colunas são o TD--> 
+            <tr>
+            <!--Colspan, mescla colunas-->     
+                <td colspan="2" align="center" bgcolor="red">
+                    <h2>Área do Acesso</h2>
+                </td>
+            </tr>    
+            <tr>
+                <td align="right"><strong>Usuário</strong></td>
+                <td><input type="text" id="txtUsuario" size="30" required></td>
+            </tr>  
+             <tr>
+                <td align="right"><strong>Senha</strong></td>
+                <td><input type="password" id="txtSenha" size="30" required></td>
+            </tr>    
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Confirmar">
+                    <input type="reset" value="Limpar Campos">
+                </td>
+            </tr>  
+        </table>
+    </form>
+
+</body>
+</html>
