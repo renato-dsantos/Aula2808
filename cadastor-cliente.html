@@ -6,6 +6,57 @@
     <title>Cadastro Cliente</title>
 </head>
 <body>
+    <form action="menu.html" method="get">
+        <table border="2">
+            <tr>
+                <td colspan="2" align="center" bgcolor="#f0f0f0">
+                    <h2>Dados do cliente</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"> <b>Nome completo</b></td>
+                <td><input type="text" id="txtNome" maxlength="40" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"> <b>Data Nascimento</b></td>
+                <td><input type="date" id="txtDTNasc" required></td>
+            </tr>
+
+             <tr>
+                <td align="right"> <b>Telefone</b></td>
+                <td><input type="tel" id="txtTelefone" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Estado</b></td>
+                <td>
+                    <select name="estado" required>
+                        <option value="">Selecione...</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </select>                        
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <br>
+                    <input type="submit" value="Salvar Cliente">
+                    <input type="reset" value="Limpar Campos">
+                    <br><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="menu.html">Voltar ao menu</a>
+                </td>
+            </tr>
+
+        </table>
+    </form>
     
 </body>
 </html>
